@@ -1,0 +1,140 @@
+
+body{
+	background-image: url("../images/Sports.png");
+	width:100%;
+}
+
+/*buttons there and new buttons*/
+button{
+	background-color:#222E50;
+	border-radius: 12px;
+
+}
+
+button:focus {outline:0;}
+
+.sports{
+	color:white;
+	font-family: 'Poppins', sans-serif;
+	font-size:18px;
+	margin:3px;
+
+}
+
+.sports:hover{
+	color:#B8C5D6;
+}
+
+
+
+
+/*title/h1*/
+.header{
+	text-align:center;
+	color: white;
+	background-color:#610F0B;
+	border: 0 ;
+	width:100%;
+	height:100%;
+	padding-top:10px;
+	margin-bottom:20px;
+	font-family: 'Baloo Tammudu', cursive;
+	clear:both;
+	}
+
+.football{
+	float:left;
+	width:60px;
+	height:50px;
+	margin-left:50px;
+}
+
+.baseball{
+	float:left;
+	width:60px;
+	height:50px;
+	margin-left:30px;
+}
+
+.basketball{
+	float:right;
+	width:60px;
+	height:50px;
+	margin-right:50px;
+}
+
+.soccer{
+	float:right;
+	width:60px;
+	height:50px;
+	margin-right:50px;
+}
+
+
+
+/*adding to buttons: form*/
+#sports-form{
+	font-family: 'Poppins', sans-serif;
+	font-style:bold;
+	margin:15px;
+	font-size:18px;
+	margin-top:20px;
+	text-align:center;
+
+}
+
+
+
+/*button to click for user to add to button list*/
+#add-sports{
+	font-size:16px;
+	border:2px solid #610F0B;
+	margin-top:10px;
+	border-radius:5px;
+}
+
+#add-sports:hover{
+	background-color:#610F0B;
+	color:white;
+	font-style:bold;
+}
+
+#sports-input{
+	border: 2px solid #B8C5D6;
+	border-radius: 5px;
+}
+
+#sports-input:focus {outline:0;}
+
+/*gifs images*/
+#gifs-appear-here{
+	font-family: 'Poppins', sans-serif;
+	margin-left:30px;
+	display:flex;
+	flex-wrap: wrap;
+	padding:20px;
+	flex-direction: row;
+
+}
+
+
+
+.gifs-go-here{
+	margin:auto;
+	padding-top:20px;
+
+}
+
+p{
+	text-align:center;
+	margin:auto;
+}
+
+.pics{
+		border:2px solid #222E50 ;
+		border-radius: 3px;
+}
+
+
+
+
